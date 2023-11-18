@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="cal.png" type="image/x-icon">
+    <title>Calculadora</title>
+</head>
+<body>
+    <head>
+        <nav class="navbar">
+            <div  class="imag" >
+                <img src="cal.png" alt="calculadora">
+            </div>
+            <div class="par">
+                <p><strong> Calculadora freelance</strong></p>
+            </div>
+        </nav>
+    </head>
+    <main>
+        <section>
+            <fieldset>
+                <legend>Quanto você ganha por mês?</legend>
+                <div class="labmes">
+                    <label for="mes">Quantidade por mes em R$</label>
+                    <input id="mes" type="number" value="0">
+                </div>
+                <legend>Quantas horas você trabalha por dia?</legend>
+                <div class="labhoras">
+                    <label for="horas">Horas por dia</label>
+                    <input id="horas" type="number" value="0">
+                </div>
+                <legend>Quantos dias  você trabalha por mês?</legend>
+                <div class="labdias">
+                    <label for="dias">dias por mes</label>
+                    <input id="dias" type="number" value="0">
+                </div>           
+            </fieldset>
+            <div class="btn">
+            <button onclick="calcular()">Calcular</button>
+            </div>
+        </section>
+        <footer>
+            <h1>
+                <span id="resposta">R$ 0,00.</span><small>Hora</small>
+            </h1>
+        </footer>
+    </main>
+    <footer class="rodape"><strong><h1>Calculado com Sucesso! </h1></strong> 
+
+    </footer>
+
+    
+</body>
+<script src="calculadora.js"></script>
+</html>

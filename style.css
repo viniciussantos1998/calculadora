@@ -1,0 +1,67 @@
+/* pagina */
+*{
+    margin: 0%;
+    padding: 0%;
+}
+body{
+    height: 4000vh;
+    background: black;
+    color: white;
+}
+/* barra */
+.navbar{
+    background: rgb(14, 238, 14);
+    height: 70px;
+    color: black;
+    margin-bottom: 20px;
+    display: flex;
+}
+/* imagem */
+.navbar img{
+    width: 50px;
+    height: 50px;
+    align-items: center;
+    margin-top: 10px;
+    margin-left: 10px;
+
+}
+/* paragrafo */
+.par{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-left: 650px;
+}
+.rodape{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: rgb(14, 238, 14);
+    color: black;
+}
+button{
+    margin-top: 25px;
+    height: 40px;
+    width: 100px;
+    border-radius: 10px;
+}
+.btn{
+    display: flex;
+    justify-content: center;
+    border-radius: 2px solid rgb(14, 238, 14) ;
+
+}
+.btn :hover{
+    background-color: rgb(14, 238, 14) ;
+    transform: scale(1.1);
+
+}
+.labmes{
+    margin: 10px;
+}
+.labhoras{
+    margin: 10px;
+}
+.labdias{
+    margin: 10px;
+}
